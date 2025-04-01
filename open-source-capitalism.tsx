@@ -10,8 +10,9 @@ export default function OpenSourceCapitalism() {
     <div className="min-h-screen bg-black text-white">
       {/* Navigation */}
       <header className="container mx-auto py-6 flex items-center justify-between">
-        <div className="flex items-center">
-          <span className="text-xl font-bold">☑POWERHOUSE</span>
+        <div className="flex items-center gap-3">
+          <img src="/powerhouse-logo.svg" alt="Powerhouse Logo" className="h-8 w-8" />
+          <span className="text-xl font-bold tracking-wide">POWERHOUSE</span>
         </div>
         <nav className="hidden md:flex space-x-8">
           <Link href="#" className="hover:text-green-400 transition-colors font-medium">
@@ -576,7 +577,10 @@ export default function OpenSourceCapitalism() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="text-xl font-bold mb-4">☑POWERHOUSE</div>
+              <div className="flex items-center gap-2 mb-4">
+                <img src="/powerhouse-logo.svg" alt="Powerhouse Logo" className="h-6 w-6" />
+                <span className="text-lg font-bold tracking-wide">POWERHOUSE</span>
+              </div>
               <p className="text-gray-400 text-sm font-normal">
                 Decentralized operations toolkit for open organizations
               </p>
