@@ -14,23 +14,31 @@ export default function OpenSourceCapitalism() {
           <img src="/powerhouse-logo.svg" alt="Powerhouse Logo" className="h-8 w-8" />
           <span className="text-xl font-bold tracking-wide">POWERHOUSE</span>
         </div>
-        <nav className="hidden md:flex space-x-8">
-          <Link href="#" className="hover:text-green-400 transition-colors font-medium">
-            Connect
+        <nav className="hidden md:flex items-center space-x-8">
+          <Link href="https://www.powerhouse.inc/renown" className="hover:opacity-80 transition-opacity">
+            <img src="/renown-logo.svg" alt="Renown" className="h-8 w-8" />
           </Link>
-          <Link href="#" className="hover:text-green-400 transition-colors font-medium">
-            Fusion
+          <Link href="https://www.powerhouse.inc/academy" className="hover:opacity-80 transition-opacity">
+            <img src="/academy-logo.svg" alt="Academy" className="h-8 w-8" />
           </Link>
-          <Link href="#" className="hover:text-green-400 transition-colors font-medium">
-            Academy
+          <Link href="https://www.powerhouse.inc/switchboard" className="hover:opacity-80 transition-opacity">
+            <img src="/switchboard-logo.svg" alt="Switchboard" className="h-8 w-8" />
           </Link>
-          <Link href="#" className="hover:text-green-400 transition-colors font-medium">
-            About
+          <Link href="https://www.powerhouse.inc/fusion" className="hover:opacity-80 transition-opacity">
+            <img src="/fusion-logo.svg" alt="Fusion" className="h-8 w-8" />
+          </Link>
+          <Link href="https://www.powerhouse.inc/connect" className="hover:opacity-80 transition-opacity">
+            <img src="/connect-logo.svg" alt="Connect" className="h-8 w-8" />
           </Link>
         </nav>
-        <Button variant="outline" className="border-green-400 text-green-400 hover:bg-green-400/10 font-medium">
-          Sign In
-        </Button>
+        <div className="flex items-center space-x-4">
+          <Link href="https://discord.com/invite/h7GKvqDyDP" className="hover:opacity-80 transition-opacity">
+            <img src="/discord-logo.svg" alt="Discord" className="h-6 w-6" />
+          </Link>
+          <Link href="https://twitter.com/PowerhouseDAO" className="hover:opacity-80 transition-opacity">
+            <img src="/x-logo.svg" alt="X (Twitter)" className="h-6 w-6" />
+          </Link>
+        </div>
       </header>
 
       {/* Hero Section */}
@@ -41,18 +49,17 @@ export default function OpenSourceCapitalism() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between gap-12">
             <div className="max-w-2xl">
-              <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 tracking-tight">
-                Open-Source Capitalism: Rethinking How We Build, Innovate, and Prosper
+              <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-4">
+                Open-Source Capitalism
               </h1>
-              <p className="text-xl md:text-2xl text-gray-400 mb-8 font-normal">
-                A bold new approach that fuses free-market forces with open-source collaboration—for the benefit of
-                everyone.
+              <p className="text-xl md:text-2xl text-gray-400 mb-8 font-normal leading-relaxed">
+                Rethinking How We Build, Innovate, and Prosper
               </p>
               <p className="text-lg text-gray-400 mb-10 font-normal">
                 Harnessing capitalism's raw power alongside the transparency and collaboration of open-source software to
                 create an inclusive, sustainable economic model.
               </p>
-              <Button className="bg-green-500 hover:bg-green-600 text-black font-bold px-8 py-6 text-lg rounded-md">
+              <Button className="bg-[#c307fe] hover:bg-[#c307fe]/90 text-white font-bold px-8 py-6 text-lg rounded-md">
                 Join the Revolution <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </div>
@@ -74,7 +81,7 @@ export default function OpenSourceCapitalism() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-black/40 p-8 rounded-lg border border-gray-800">
               <div className="mb-4">
-                <CheckCircle className="h-10 w-10 text-green-400" />
+                <CheckCircle className="h-10 w-10 text-[#c307fe]" />
               </div>
               <h3 className="text-xl font-bold mb-4">Definition</h3>
               <p className="text-gray-400 font-normal">
@@ -83,7 +90,7 @@ export default function OpenSourceCapitalism() {
             </div>
             <div className="bg-black/40 p-8 rounded-lg border border-gray-800">
               <div className="mb-4">
-                <CheckCircle className="h-10 w-10 text-green-400" />
+                <CheckCircle className="h-10 w-10 text-[#c307fe]" />
               </div>
               <h3 className="text-xl font-bold mb-4">Goal</h3>
               <p className="text-gray-400 font-normal">
@@ -92,7 +99,7 @@ export default function OpenSourceCapitalism() {
             </div>
             <div className="bg-black/40 p-8 rounded-lg border border-gray-800">
               <div className="mb-4">
-                <CheckCircle className="h-10 w-10 text-green-400" />
+                <CheckCircle className="h-10 w-10 text-[#c307fe]" />
               </div>
               <h3 className="text-xl font-bold mb-4">Why It Matters</h3>
               <p className="text-gray-400 font-normal">
@@ -114,7 +121,7 @@ export default function OpenSourceCapitalism() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h4 className="text-xl font-bold flex items-center">
-                  <span className="inline-block w-8 h-8 rounded-full bg-green-500 text-black flex items-center justify-center mr-3">
+                  <span className="inline-block w-8 h-8 rounded-full bg-[#c307fe] text-black flex items-center justify-center mr-3">
                     1
                   </span>
                   Capitalism's Unstoppable Force
@@ -127,7 +134,7 @@ export default function OpenSourceCapitalism() {
 
               <div className="space-y-4">
                 <h4 className="text-xl font-bold flex items-center">
-                  <span className="inline-block w-8 h-8 rounded-full bg-green-500 text-black flex items-center justify-center mr-3">
+                  <span className="inline-block w-8 h-8 rounded-full bg-[#c307fe] text-black flex items-center justify-center mr-3">
                     2
                   </span>
                   Open Source Underfunded
@@ -142,7 +149,7 @@ export default function OpenSourceCapitalism() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h4 className="text-xl font-bold flex items-center">
-                  <span className="inline-block w-8 h-8 rounded-full bg-green-500 text-black flex items-center justify-center mr-3">
+                  <span className="inline-block w-8 h-8 rounded-full bg-[#c307fe] text-black flex items-center justify-center mr-3">
                     3
                   </span>
                   Lack of Incentives for Builders
@@ -154,7 +161,7 @@ export default function OpenSourceCapitalism() {
 
               <div className="space-y-4">
                 <h4 className="text-xl font-bold flex items-center">
-                  <span className="inline-block w-8 h-8 rounded-full bg-green-500 text-black flex items-center justify-center mr-3">
+                  <span className="inline-block w-8 h-8 rounded-full bg-[#c307fe] text-black flex items-center justify-center mr-3">
                     4
                   </span>
                   DAOs & Decentralized Tech Underperforming
@@ -183,7 +190,7 @@ export default function OpenSourceCapitalism() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-black/40 p-8 rounded-lg border border-gray-800">
               <div className="flex items-start mb-6">
-                <div className="bg-green-500 text-black font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
+                <div className="bg-[#c307fe] text-black font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
                   1
                 </div>
                 <h3 className="text-xl font-bold">Coordination Through a Marketplace Platform</h3>
@@ -200,7 +207,7 @@ export default function OpenSourceCapitalism() {
 
             <div className="bg-black/40 p-8 rounded-lg border border-gray-800">
               <div className="flex items-start mb-6">
-                <div className="bg-green-500 text-black font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
+                <div className="bg-[#c307fe] text-black font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
                   2
                 </div>
                 <h3 className="text-xl font-bold">Profits Before Distribution</h3>
@@ -217,7 +224,7 @@ export default function OpenSourceCapitalism() {
 
             <div className="bg-black/40 p-8 rounded-lg border border-gray-800">
               <div className="flex items-start mb-6">
-                <div className="bg-green-500 text-black font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
+                <div className="bg-[#c307fe] text-black font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
                   3
                 </div>
                 <h3 className="text-xl font-bold">Maximizing Value Capture (Commercial Licensing)</h3>
@@ -234,7 +241,7 @@ export default function OpenSourceCapitalism() {
 
             <div className="bg-black/40 p-8 rounded-lg border border-gray-800">
               <div className="flex items-start mb-6">
-                <div className="bg-green-500 text-black font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
+                <div className="bg-[#c307fe] text-black font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
                   4
                 </div>
                 <h3 className="text-xl font-bold">Making Open Source Investable</h3>
@@ -268,7 +275,7 @@ export default function OpenSourceCapitalism() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="flex">
               <div className="mr-6">
-                <Globe className="h-12 w-12 text-green-400" />
+                <Globe className="h-12 w-12 text-[#c307fe]" />
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-3">Revenue-Generating Hubs (RGHs)</h3>
@@ -281,7 +288,7 @@ export default function OpenSourceCapitalism() {
 
             <div className="flex">
               <div className="mr-6">
-                <Users className="h-12 w-12 text-green-400" />
+                <Users className="h-12 w-12 text-[#c307fe]" />
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-3">Builder Marketplaces</h3>
@@ -294,7 +301,7 @@ export default function OpenSourceCapitalism() {
 
             <div className="flex">
               <div className="mr-6">
-                <Rocket className="h-12 w-12 text-green-400" />
+                <Rocket className="h-12 w-12 text-[#c307fe]" />
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-3">Retroactive Funding</h3>
@@ -306,7 +313,7 @@ export default function OpenSourceCapitalism() {
 
             <div className="flex">
               <div className="mr-6">
-                <Lightbulb className="h-12 w-12 text-green-400" />
+                <Lightbulb className="h-12 w-12 text-[#c307fe]" />
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-3">Commercial + Copyleft Licenses</h3>
@@ -348,7 +355,7 @@ export default function OpenSourceCapitalism() {
               </p>
               <Button
                 variant="outline"
-                className="mt-4 border-green-400 text-green-400 hover:bg-green-400/10 font-medium"
+                className="mt-4 border-[#c307fe] text-[#c307fe] hover:bg-[#c307fe]/10 font-medium"
               >
                 Learn More
               </Button>
@@ -375,22 +382,22 @@ export default function OpenSourceCapitalism() {
               <p className="text-gray-400 font-normal">
                 Real examples of how open-source capitalism is already at work or in pilot phases.
               </p>
-              <div className="mt-4 text-green-400 font-medium">Coming Q3 2024</div>
+              <div className="mt-4 text-[#c307fe] font-medium">Coming Q3 2024</div>
             </div>
 
             <div className="bg-black/40 p-8 rounded-lg border border-gray-800">
               <h3 className="text-xl font-bold mb-4">Community Benefits</h3>
               <ul className="text-gray-400 space-y-2 font-normal">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-400 mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#c307fe] mr-2 mt-0.5" />
                   <span>More inclusive innovation</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-400 mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#c307fe] mr-2 mt-0.5" />
                   <span>Pro-consumer competition</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-400 mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#c307fe] mr-2 mt-0.5" />
                   <span>Faster breakthroughs in crucial tech</span>
                 </li>
               </ul>
@@ -416,7 +423,7 @@ export default function OpenSourceCapitalism() {
               <p className="text-gray-400 mb-6 font-normal">
                 Connect with like-minded individuals and stay updated on the latest developments.
               </p>
-              <Button className="w-full bg-green-500 hover:bg-green-600 text-black font-bold">Join Discord</Button>
+              <Button className="w-full bg-[#c307fe] hover:bg-[#c307fe]/90 text-black font-bold">Join Discord</Button>
             </div>
 
             <div className="bg-black/40 p-8 rounded-lg border border-gray-800">
@@ -424,7 +431,7 @@ export default function OpenSourceCapitalism() {
               <p className="text-gray-400 mb-6 font-normal">
                 Explore open bounties or builder platforms for active projects.
               </p>
-              <Button className="w-full bg-green-500 hover:bg-green-600 text-black font-bold">
+              <Button className="w-full bg-[#c307fe] hover:bg-[#c307fe]/90 text-black font-bold">
                 View Opportunities
               </Button>
             </div>
@@ -434,7 +441,7 @@ export default function OpenSourceCapitalism() {
               <p className="text-gray-400 mb-6 font-normal">
                 If you run or represent a business, integrate open-source solutions and share profits with contributors.
               </p>
-              <Button className="w-full bg-green-500 hover:bg-green-600 text-black font-bold">Partner With Us</Button>
+              <Button className="w-full bg-[#c307fe] hover:bg-[#c307fe]/90 text-black font-bold">Partner With Us</Button>
             </div>
 
             <div className="bg-black/40 p-8 rounded-lg border border-gray-800">
@@ -442,7 +449,7 @@ export default function OpenSourceCapitalism() {
               <p className="text-gray-400 mb-6 font-normal">
                 Learn about how to back sustainable open-source initiatives financially.
               </p>
-              <Button className="w-full bg-green-500 hover:bg-green-600 text-black font-bold">
+              <Button className="w-full bg-[#c307fe] hover:bg-[#c307fe]/90 text-black font-bold">
                 Investment Options
               </Button>
             </div>
@@ -499,8 +506,8 @@ export default function OpenSourceCapitalism() {
         </div>
       </section>
 
-      {/* Conclusion & Final Call to Action */}
-      <section className="py-20 bg-gradient-to-b from-black to-green-950">
+      {/* Stay Updated */}
+      <section className="py-20 bg-gradient-to-b from-black to-[#c307fe]/20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 tracking-tight">
             Join Us in Building Open-Source Capitalism
@@ -523,16 +530,16 @@ export default function OpenSourceCapitalism() {
                   placeholder="Enter your email"
                   className="bg-black/60 border-gray-700 text-white placeholder:text-gray-500 font-normal"
                 />
-                <Button className="w-full bg-green-500 hover:bg-green-600 text-black font-bold py-6">
+                <Button className="w-full bg-[#c307fe] hover:bg-[#c307fe]/90 text-white font-bold py-6">
                   Join the Revolution
                 </Button>
                 <p className="text-xs text-gray-500 font-normal">
                   By signing up, you agree to our{" "}
-                  <Link href="#" className="text-green-400 hover:underline">
+                  <Link href="#" className="text-[#c307fe] hover:underline">
                     Terms of Service
                   </Link>{" "}
                   and{" "}
-                  <Link href="#" className="text-green-400 hover:underline">
+                  <Link href="#" className="text-[#c307fe] hover:underline">
                     Privacy Policy
                   </Link>
                   .
@@ -561,17 +568,17 @@ export default function OpenSourceCapitalism() {
               <h4 className="font-bold mb-4">Products</h4>
               <ul className="space-y-2 text-gray-400 font-normal">
                 <li>
-                  <Link href="#" className="hover:text-green-400">
+                  <Link href="#" className="hover:text-[#c307fe]">
                     Connect
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-green-400">
+                  <Link href="#" className="hover:text-[#c307fe]">
                     Fusion
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-green-400">
+                  <Link href="#" className="hover:text-[#c307fe]">
                     Academy
                   </Link>
                 </li>
@@ -582,17 +589,17 @@ export default function OpenSourceCapitalism() {
               <h4 className="font-bold mb-4">Resources</h4>
               <ul className="space-y-2 text-gray-400 font-normal">
                 <li>
-                  <Link href="#" className="hover:text-green-400">
+                  <Link href="#" className="hover:text-[#c307fe]">
                     Documentation
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-green-400">
+                  <Link href="#" className="hover:text-[#c307fe]">
                     Blog
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-green-400">
+                  <Link href="#" className="hover:text-[#c307fe]">
                     Community
                   </Link>
                 </li>
@@ -603,17 +610,17 @@ export default function OpenSourceCapitalism() {
               <h4 className="font-bold mb-4">Company</h4>
               <ul className="space-y-2 text-gray-400 font-normal">
                 <li>
-                  <Link href="#" className="hover:text-green-400">
+                  <Link href="#" className="hover:text-[#c307fe]">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-green-400">
+                  <Link href="#" className="hover:text-[#c307fe]">
                     Careers
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-green-400">
+                  <Link href="#" className="hover:text-[#c307fe]">
                     Contact
                   </Link>
                 </li>
@@ -626,13 +633,13 @@ export default function OpenSourceCapitalism() {
               &copy; {new Date().getFullYear()} Powerhouse. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="#" className="text-gray-400 hover:text-green-400">
+              <Link href="#" className="text-gray-400 hover:text-[#c307fe]">
                 Twitter
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-green-400">
+              <Link href="#" className="text-gray-400 hover:text-[#c307fe]">
                 Discord
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-green-400">
+              <Link href="#" className="text-gray-400 hover:text-[#c307fe]">
                 GitHub
               </Link>
             </div>
