@@ -56,41 +56,12 @@ export default function OpenSourceCapitalism() {
                 Join the Revolution <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </div>
-            <div className="hidden lg:flex items-center justify-center w-[500px] h-[500px] relative">
-              <svg
-                viewBox="0 0 400 400"
-                className="w-full h-full animate-float stroke-white/30"
-                style={{ strokeWidth: "0.8" }}
-              >
-                {/* Main circle */}
-                <circle cx="200" cy="200" r="195" />
-                
-                {/* Horizontal latitude lines with perspective */}
-                <path d="M5,200 Q200,200 395,200" className="stroke-white/40" />
-                <path d="M14,120 Q200,140 386,120" />
-                <path d="M14,280 Q200,260 386,280" />
-                <path d="M35,60 Q200,100 365,60" />
-                <path d="M35,340 Q200,300 365,340" />
-                
-                {/* Vertical longitude lines with perspective */}
-                <path d="M200,5 Q200,200 200,395" className="stroke-white/40" />
-                <path d="M120,14 Q140,200 120,386" />
-                <path d="M280,14 Q260,200 280,386" />
-                <path d="M60,35 Q100,200 60,365" />
-                <path d="M340,35 Q300,200 340,365" />
-                
-                {/* Additional perspective lines */}
-                <path d="M80,80 Q120,200 80,320" />
-                <path d="M320,80 Q280,200 320,320" />
-                <path d="M80,80 Q200,100 320,80" />
-                <path d="M80,320 Q200,300 320,320" />
-                
-                {/* Middle region detail */}
-                <path d="M160,160 Q200,180 240,160" />
-                <path d="M160,240 Q200,220 240,240" />
-                <path d="M160,160 Q180,200 160,240" />
-                <path d="M240,160 Q220,200 240,240" />
-              </svg>
+            <div className="hidden lg:block relative w-[600px] h-[600px]">
+              <img
+                src="/hero-globe.svg"
+                alt="Network Globe Illustration"
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
         </div>
